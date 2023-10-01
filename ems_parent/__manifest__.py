@@ -1,17 +1,16 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "ems-student",
+    'name': "ems_parent",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+       Ems parent""",
 
     'description': """
-        Long description of module's purpose
+        Ems parent
     """,
 
-    'author': "My Company",
-    'website': "https://www.yourcompany.com",
+    'author': "Netlinks",
+    'website': "https://www.Nenlinks LTD.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/16.0/odoo/addons/base/data/ir_module_category_data.xml
@@ -25,7 +24,7 @@
     # always loaded
     'data': [
         'security/ir.model.access.csv',
-        'views/views.xml',
-        'data/sequences.xml',
+        'views/ems_parent_views.xml',
+        
     ],
 }

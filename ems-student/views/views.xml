@@ -18,7 +18,7 @@
     </record>
 
 
-    
+
     <record id="ems_student_view_form" model="ir.ui.view">
       <field name="name">ems.student.view.form</field>
       <field name="model">ems.student</field>
